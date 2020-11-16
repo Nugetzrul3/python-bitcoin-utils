@@ -11,25 +11,25 @@
 
 # TODO organise constants in sections
 
-NETWORK_DEFAULT_PORTS = { 'mainnet': 8332,
-                          'testnet': 18332,
-                          'regtest': 18443 }
+NETWORK_DEFAULT_PORTS = { 'mainnet': 34229,
+                          'testnet': 44229,
+                          'regtest': 45339 }
 
 NETWORK_WIF_PREFIXES = { 'mainnet': b'\x80',
-                         'testnet': b'\xef',
-                         'regtest': b'\xef' }
+                         'testnet': b'\xEF',
+                         'regtest': b'\xEF' }
 
-NETWORK_P2PKH_PREFIXES = { 'mainnet': b'\x00',
-                           'testnet': b'\x6f',
-                           'regtest': b'\x6f' }
+NETWORK_P2PKH_PREFIXES = { 'mainnet': b'\x3F',
+                           'testnet': b'\x42',
+                           'regtest': b'\x3D' }
 
-NETWORK_P2SH_PREFIXES = { 'mainnet': b'\x05',
-                          'testnet': b'\xc4',
-                          'regtest': b'\xc4' }
+NETWORK_P2SH_PREFIXES = { 'mainnet': b'\x7D',
+                          'testnet': b'\x80',
+                          'regtest': b'\x7B' }
 
-NETWORK_SEGWIT_PREFIXES = { 'mainnet' : 'bc',
-                            'testnet' : 'tb',
-                            'regtest' : 'bcrt' }
+NETWORK_SEGWIT_PREFIXES = { 'mainnet' : 'sugar',
+                            'testnet' : 'tugar',
+                            'regtest' : 'rugar' }
 
 P2PKH_ADDRESS = "p2pkh"
 P2SH_ADDRESS = "p2sh"
